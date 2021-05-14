@@ -1,0 +1,21 @@
+.main-button{
+    background: #865701;
+    color: white;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+
+    margin-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 150px;
+}
+
+.main-button:hover{
+    background: #b28601;
+    color: white;
+}
+
+.main-button:focus{
+    background: #865701;
+    color:white;
+}

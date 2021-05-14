@@ -1,0 +1,33 @@
+.black-container-display{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.black-container-background{
+    background-image: radial-gradient(closest-corner, #3d2307, #292520);
+    border: solid orange 1px;
+    background-size: contain;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    padding: 18px;
+}
+
+.brown-container{
+    padding: 30px;
+    margin: 20px;
+    border: 1px solid #865701;
+    border-radius: 30px;
+    min-width: 470px;
+    min-height: 470px;
+}
