@@ -1,0 +1,105 @@
+/*Contact Me -- Social media links*/
+
+#socialMediaUL{
+    margin: 50px 10px 10px 20px;
+    list-style: none;
+    font-size: 1.3em !important;
+    border-left: #d49b3f 3px solid;
+}
+#socialMediaUL li{
+    margin: 13px;
+}
+
+#socialMediaUL li a{
+    color: #d49b3f;
+}
+
+#socialMediaUL li a:hover{
+    text-decoration: underline #b38337;
+    color: #b38337;
+}
+
+/*Projects Holder*/
+.img-single-holder{
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px 10px 15px 10px;
+    text-align: center;
+}
+
+/*Project image modal*/
+/* The Modal (background) */
+.modal {
+    display: block; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 250px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 700px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    display:none;
+    position: absolute;
+    top: 115px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+
+/*My own photo*/
+#selfie{
+    height: 160px;
+    width: auto;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+#educationImg{
+    height: 130px;
+    width: auto;
+    border-radius: 10px;
+    margin: 15px;
+}

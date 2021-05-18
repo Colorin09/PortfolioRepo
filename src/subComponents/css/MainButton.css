@@ -1,13 +1,9 @@
+/*Main yellow button*/
 .main-button{
     background: #865701;
     color: white;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
-
-    margin-top: 30px;
-    padding-left: 15px;
-    padding-right: 15px;
-    max-width: 150px;
 }
 
 .main-button:hover{
@@ -18,4 +14,69 @@
 .main-button:focus{
     background: #865701;
     color:white;
+}
+
+/*Main red button (reset)*/
+.reset-btn{
+    background-color: #a8492c;
+    color:white;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.reset-btn:hover{
+    background-color:#853922;
+    color:white;
+}
+
+.reset-btn:focus{
+    background-color: #782b14;
+    color:white;
+}
+
+/*Custom Login button*/
+.login-btn{
+    border: #782b14 solid 1px;
+    color: #782b14;
+}
+
+.login-btn:hover{
+    background-color: #782b14;
+    color:white;
+}
+
+.login-btn:focus{
+    background-color: #7a3312;
+    color:white;
+}
+
+.back-button{
+    background-color: #1f1d1a;
+    color: #d49b3f !important;
+    text-align: center;
+    border-radius: 10px;
+    border: #1a1815 solid 2px;
+    width: 10em;
+    height: 4em;
+    margin:10px;
+}
+
+.back-button:hover{
+    background-color: #1B1B1B;
+    color: #805d26 !important;
+    -webkit-box-shadow: 1px 1px 11px 9px rgba(51,51,51,0.64);
+    box-shadow: 1px 1px 11px 9px rgba(51,51,51,0.64);
+}
+
+/*Table button*/
+.del-btn{
+    background-color: #e39800;
+    color: white !important;
+    border-radius: 5px;
+    border: darkred solid 1px;
+    opacity: .2;
+}
+
+.del-btn:hover{
+    opacity: 1;
+    background-color: #e39800;
 }

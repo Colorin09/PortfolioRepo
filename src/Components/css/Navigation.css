@@ -1,0 +1,29 @@
+.nav-background {
+    border-bottom: 1px solid #865701;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2000;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#majorNav{
+    -webkit-box-shadow: 2px 15px 30px 12px rgba(0,0,0,0.84);
+    box-shadow: 2px 5px 30px 5px rgba(0,0,0,0.84);
+}
+
+/*Links in main navigation*/
+#homeLink:hover{
+    background-color: #2e241f !important;
+    text-decoration: underline #865701;
+}
+
+#mainNav a{
+    border-radius: 10px !important;
+    padding: 5px 10px 5px 10px !important;
+}
+
+#mainNav a:hover{
+    background-color: #78561f;
+}

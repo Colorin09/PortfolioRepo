@@ -1,0 +1,79 @@
+/*Custom Admin navigation sidebar css*/
+
+.customNavBar {
+    background-color: #de9400;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: -100px;
+    float:left;
+    padding:10px;
+}
+
+.custom-menu-bars {
+    margin-left: 2rem;
+    font-size: 2rem;
+    background: none;
+}
+
+.nav-cus-menu {
+    background: radial-gradient(circle, #db8b30 50%, #ebb410 100%);
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 5px;
+    left: -100%;
+    transition: 850ms;
+    box-shadow: 10px 10px 50px #1B1B1B;
+}
+
+.nav-cus-menu.active {
+    left: 0;
+    transition: 350ms;
+    margin-top:100px;
+}
+
+.nav-text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    height: 60px;
+}
+
+.nav-text a {
+    text-decoration: none;
+    color: #f5f5f5;
+    font-size: 18px;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px !important;
+    border-radius: 4px;
+}
+
+.nav-text a:hover {
+    color: white;
+    background-color: #b3721d !important;
+}
+
+.nav-menu-items {
+    width: 100%;
+}
+
+.navbar-toggle {
+    background-color: #fec300;
+    display: flex;
+    margin-left:-40px;
+    font-size:1.2em;
+    padding:10px;
+}
+
+
+

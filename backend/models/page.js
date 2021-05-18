@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const pageSchema = new Schema({
-    pagetitle: {
+    pageTitle: {
         type:String,
         required:true,
         trim: true,
@@ -14,21 +14,14 @@ const pageSchema = new Schema({
         maxlength: 40,
         trim: true
     },
-    official_name: {
+    officialName: {
         type: String,
         minlength: 3,
         maxlength: 10,
         required: true,
         trim: true
     },
-    pageCode: {
-        type: String,
-        length: 3,
-        required: true,
-        trim: true,
-        unique: true
-    },
-    pageContent: {
+    content: {
         type: String,
         minlength: 30,
         required: true

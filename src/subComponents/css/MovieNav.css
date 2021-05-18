@@ -1,0 +1,77 @@
+.custom-movie-nav {
+    background-color: #d65e3a;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 100px;
+    float:right;
+    padding:10px;
+    -webkit-box-shadow: -23px 0px 31px 11px rgba(129,12,12,0.9);
+    box-shadow: -23px 0px 31px 11px rgba(129,12,12,0.9);
+}
+
+.nav-movie-menu {
+    background: radial-gradient(circle, #d65e3a 50%, #b54828 100%);
+    width: 320px;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 5px;
+    right: -100%;
+    transition: 850ms;
+    box-shadow: 10px 10px 50px #1B1B1B;
+    z-index: 5;
+    overflow-y: auto;
+}
+
+.nav-movie-menu.active {
+    right: 0;
+    transition: 350ms;
+    margin-top:100px;
+}
+
+.nav-text-movie {
+    list-style: none;
+    margin-right: 10px;
+    clear: both;
+}
+
+.nav-text-movie p{
+    color: white !important;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.navbar-toggle-movie {
+    background-color: #d65e3a;
+    display: flex;
+    margin-left:-40px;
+    font-size:1.2em;
+    padding:10px;
+}
+
+/*Image CSS*/
+.movie-holder{
+    margin: auto auto auto 30px;
+    width: 150px;
+    height: auto;
+    clear: both;
+    border-radius: 10px;
+    box-shadow: #782b14 5px 5px 10px;
+    opacity: 0.5;
+}
+
+.movie-holder:hover{
+    opacity: 1;
+}
+
+.opa{
+    opacity: 0;
+}
+.show-opa{
+    opacity: 1;
+}

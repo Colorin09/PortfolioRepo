@@ -1,15 +1,5 @@
 .black-container-display{
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
     justify-content: center;
 }
 
@@ -20,7 +10,8 @@
     margin-left: auto;
     margin-right: auto;
     border-radius: 30px;
-    padding: 18px;
+    min-height: 480px;
+    min-width: 480px;
 }
 
 .brown-container{
@@ -28,6 +19,39 @@
     margin: 20px;
     border: 1px solid #865701;
     border-radius: 30px;
-    min-width: 470px;
     min-height: 470px;
+    min-width: 450px;
+}
+
+/*Custom shorter black box for project display*/
+.black-container-background-shorter{
+    background-image: radial-gradient(closest-corner, #3d2307, #292520);
+    border: solid orange 1px;
+    background-size: contain;
+    border-radius: 20px;
+    height: 500px;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.brown-container-shorter{
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #865701;
+    border-radius: 20px;
+    min-height: 220px;
+    min-width: 200px;
+    text-align: center;
+}
+
+.short-text h1{
+    font-size: 1.5em !important;
+}
+
+.black-container-background-shorter:hover{
+    background-image: radial-gradient(closest-corner, #33221a, #211109);
+}
+
+.brown-container-shorter:hover h1, .brown-container-shorter:hover p{
+    color: white !important;
 }

@@ -1,13 +1,7 @@
 import React, {Component} from "react";
-import '../css/BlackBox.css';
-import './MainButton';
+import './css/BlackBox.css';
 
 class BlackBox extends Component{
-
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         return(
             <div className="black-container-display black-container-background">

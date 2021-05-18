@@ -1,4 +1,4 @@
-/*  
+/*
 
 Brownie Template
 
@@ -10,7 +10,7 @@ COLOR CODES
   Dark Gray #2a2a2a
   Brown #865701, rgb(134,87,1)
   Gold #b28601, rgb(178,134,1)
-  
+
 TABLE OF CONTENT
   1. Universal Styles
   2. Header & Menu Styles
@@ -35,12 +35,10 @@ h3 {
   font-weight: 600;
   margin-top: 0;
 }
-a:hover, a:focus { 
+a:hover, a:focus {
   color: #b28601;
-  text-decoration: none; 
+  text-decoration: none;
 }
-p { color: #929292; }
-ul { margin: 0; }
 
 .blue {
 	color: #6BE;
@@ -59,7 +57,7 @@ ul { margin: 0; }
 .margin-top-30 { margin-top: 30px; }
 .padding-30 { padding: 30px; }
 .templatemo-section-title { display: block; }
-.templatemo-home-image, 
+.templatemo-home-image,
 .templatemo-image-overlay,
 .templatemo-black-bg {
    border-radius: 30px;
@@ -87,7 +85,7 @@ ul { margin: 0; }
   -webkit-box-pack: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
-          justify-content: center;  
+          justify-content: center;
   padding: 50px;
 }
 /* IE fix */
@@ -137,9 +135,8 @@ ul { margin: 0; }
 /* 2. Header & Menu Styles
 --------------------------------------*/
 .templatemo-site-header {
-  background: url('../images/header-bg.png') repeat-x;
+  background: url('../images/body-bg.png');
   border-bottom: 1px solid #865701;
-  height: 82px; 
   position: fixed;
   top: 0;
   width: 100%;
@@ -147,11 +144,10 @@ ul { margin: 0; }
   -webkit-transition: all 0.3s ease;
           transition: all 0.3s ease;
 }
-.templatemo-site-header.sticky { height: 47px; }
-.templatemo-site-header h1 { 
+.templatemo-site-header h1 {
   font-size: 60px;
   -webkit-transition: all 0.3s ease;
-          transition: all 0.3s ease; 
+          transition: all 0.3s ease;
 }
 .templatemo-site-header.sticky h1 { font-size: 34px; }
 .templatemo-site-name {
@@ -159,11 +155,12 @@ ul { margin: 0; }
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 30px;
+  text-align: left;
 }
 .templatemo-site-name span {
   display: inline-block;
   vertical-align: middle;
-  line-height: normal;      
+  line-height: normal;
 }
 .templatemo-site-name span:first-child { font-size: 20px; }
 .templatemo-site-header .templatemo-nav {
@@ -182,7 +179,7 @@ ul { margin: 0; }
 /*
 https://stackoverflow.com/questions/952861/targeting-only-firefox-with-css/953491#953491
 */
-@-moz-document url-prefix() { 
+@-moz-document url-prefix() {
     .templatemo-site-header .templatemo-nav {
       bottom: 16px;
       -webkit-transition: all 0.3s ease;
@@ -212,13 +209,13 @@ https://stackoverflow.com/questions/952861/targeting-only-firefox-with-css/95349
   border-top-right-radius: 15px;
 }
 .templatemo-nav ul li a { color: #865701; }
-#responsive-menu ul li:hover a, 
+#responsive-menu ul li:hover a,
 #responsive-menu ul li.active a,
-.templatemo-nav li:hover a, 
+.templatemo-nav li:hover a,
 .templatemo-nav li.active a {
   color: #b28601;
 }
-.templatemo-nav li:hover a, 
+.templatemo-nav li:hover a,
 .templatemo-nav li.active a,
 a:focus {
   text-decoration: none;
@@ -290,7 +287,7 @@ a#mobile_menu {
   cursor: pointer;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: -webkit-box;  
+  display: -webkit-box;
   display: flex;
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
@@ -300,17 +297,17 @@ a#mobile_menu {
       -ms-flex-pack: center;
           -webkit-box-pack: center;
           justify-content: center;
-  
+
   -webkit-align-items: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           -webkit-box-align: center;
           align-items: center;
 
-  -webkit-box-orient: vertical;  
+  -webkit-box-orient: vertical;
     -webkit-box-pack: center;
        -ms-flex-pack: center;
-    
+
   opacity: 0;
   position: absolute;
   top: 0;
@@ -368,29 +365,17 @@ h3.templatemo-service-title {
 
 /* 5. Contact & Footer Styles
 -------------------------------------*/
-form { width: 430px; }
-.form-control {
-  background: #1f1d1a;
-  border: 1px solid #865701;
-  border-radius: 10px;
-  color: #b28601;
-}
-.form-control:focus { border: 1px solid #b28601; }
+
 .templatemo-send-btn {
   background: #774d01;
   color: #C5A554;
 }
-/* http://css-tricks.com/snippets/css/style-placeholder-text/ */
-.form-control::-webkit-input-placeholder { color: #b28601; }
-.form-control:-moz-placeholder { color: #b28601; } /* Firefox 18- */
-.form-control::-moz-placeholder { color: #b28601; } /* Firefox 19+ */
-.form-control:-ms-input-placeholder { color: #b28601; }
 
 .templatemo-social-icons-img { display: none; }
-.templatemo-social-icon { 
+.templatemo-social-icon {
   display: inline-block;
   width: 52px;
-  height: 44px; 
+  height: 44px;
 }
 #facebook { background: url('../images/social-icons.png') -5px 0; }
 #twitter { background: url('../images/social-icons.png') -59px 0; }
@@ -400,7 +385,7 @@ form { width: 430px; }
 footer { padding-bottom: 50px; }
 .templatemo-copyright-container { padding-left: 30px; }
 
-/* 6. jCarousel http://sorgalla.com/jcarousel 
+/* 6. jCarousel http://sorgalla.com/jcarousel
 ---------------------------------------------*/
 .jcarousel-wrapper { position: relative; }
 
@@ -411,7 +396,7 @@ The width can be either fixed in px or flexible in %.
 Position must be relative!
 */
 .jcarousel {
-    position: relative;    
+    position: relative;
     overflow: hidden;
 }
 .templatemo-team .jcarousel { width: 250px; }
@@ -457,7 +442,7 @@ have a fixed width and height (but it's not required).
 }
 
 .jcarousel-control-prev, .jcarousel-control-next {
-  position: absolute;  
+  position: absolute;
   width: 30px;
   height: 30px;
   text-align: center;
@@ -469,7 +454,7 @@ have a fixed width and height (but it's not required).
   border-radius: 30px;
   box-shadow: 0 0 2px #999;
 }
-.templatemo-team .jcarousel-control-prev, 
+.templatemo-team .jcarousel-control-prev,
 .templatemo-team .jcarousel-control-next {
   top: 55px;
 }
@@ -489,7 +474,7 @@ have a fixed width and height (but it's not required).
 /* 7. Media Queries
 --------------------------------------*/
 @media screen and (max-width: 1199px) {
-  .templatemo-black-bg, 
+  .templatemo-black-bg,
   .templatemo-content-box {
     width: 480px;
     height: 523px;
@@ -497,15 +482,15 @@ have a fixed width and height (but it's not required).
 }
 
 @media screen and (max-width: 991px) {
-  .templatemo-site-header { height: 48px; }
+  .templatemo-site-header { height: 60px; padding-top:10px;}
   .templatemo-site-header h1 { font-size: 35px; }
-  .templatemo-site-header .templatemo-nav { 
+  .templatemo-site-header .templatemo-nav {
     right: 10px;
     bottom: 8px;
   }
   /*https://stackoverflow.com/questions/952861/targeting-only-firefox-with-css/953491#953491*/
   @-moz-document url-prefix() {
-      .templatemo-site-header .templatemo-nav { 
+      .templatemo-site-header .templatemo-nav {
         bottom: 11px;
       }
   }
@@ -522,7 +507,7 @@ have a fixed width and height (but it's not required).
     padding-bottom: 10px;
   }
   #home { padding-top: 100px; }
-  .templatemo-black-bg, 
+  .templatemo-black-bg,
   .templatemo-content-box {
     margin-left: auto;
     margin-right: auto;

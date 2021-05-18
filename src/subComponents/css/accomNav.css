@@ -1,0 +1,62 @@
+.custom-accom-nav {
+    background-color: #0abf3a;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 100px;
+    float:right;
+    padding:10px;
+}
+
+.nav-accom-menu {
+    background: radial-gradient(circle, #04d13b 50%, #06912b 100%);
+    width: 320px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 5px;
+    right: -100%;
+    transition: 850ms;
+    box-shadow: 10px 10px 50px #1B1B1B;
+    z-index: 5;
+    overflow-y: auto;
+}
+
+#accomTitle{
+    text-transform: uppercase;
+    color:#0a4d0d;
+    font-size: 1.5em;
+    list-style: none !important;
+    margin-right: 10px;
+    clear: both;
+}
+
+.nav-text-accom {
+    list-style: circle;
+    margin-right: 10px;
+    clear: both;
+}
+
+.nav-text-accom p{
+    color: white !important;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.nav-accom-menu.active {
+    right: 0;
+    transition: 350ms;
+    margin-top: 240px;
+}
+
+.navbar-toggle-accom {
+    background-color: #04d13b;
+    display: flex;
+    margin-left:-40px;
+    font-size:1.2em;
+    padding:10px;
+}

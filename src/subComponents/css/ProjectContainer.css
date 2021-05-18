@@ -1,0 +1,8 @@
+.project-img-holder{
+    max-height: 220px;
+    max-width: 200px;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    border: #d49b3f 1px solid;
+}

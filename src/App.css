@@ -1,38 +1,147 @@
-.App {
-  text-align: center;
+/*App Component - Cursor settings*/
+.App{
+    width:100%;
+    height: 100%;
+    margin-top:80px;
+    padding-bottom:80px;
+    z-index:1;
+    cursor:url(images/cursor/Normal-Vanilla.cur), auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a{
+    cursor:url(images/cursor/Link-Vanilla.cur), auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button:hover{
+    cursor:url(images/cursor/Link-Vanilla.cur), auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+input[type=submit]:hover, input[type=reset]:hover, label:hover{
+    cursor:url(images/cursor/Normal-Vanilla.cur), auto;
 }
 
-.App-link {
-  color: #61dafb;
+input[type=text], textarea{
+    cursor:url(images/cursor/Text-Vanilla.cur), text;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*
+http://www.rw-designer.com/cursor-set/awesome-face-deluxe
+http://www.rw-designer.com/cursor-detail/147707
+https://developer.mozilla.org/en-US/docs/Web/CSS/cursor#setting_cursor_types
+*/
+
+/*Application Headings*/
+.title-font{
+    font-family: Georgia, Times, serif;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 30px;
+    text-align: left;
+}
+
+.brown-heading{
+    color: #865701;
+}
+
+.goldish-heading{
+    color: #b28601;
+}
+
+.brown_-subtitle{
+    font-size: 14px;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+.little-brownish{
+    font-sizE: 1.5em;
+    color: #78561f !important;
+}
+
+/*Application body*/
+body{
+    background: url('./images/body-bg.png') repeat;
+    padding-top: 100px;
+}
+
+p{
+    color: #c9c9c9;
+}
+
+h1, h2, h3 {
+    color: #d49b3f
+}
+
+/*Home Page*/
+.title-box{
+    margin: 160px auto 20px auto;
+    max-width: 1500px;
+    font-family: "Merriweather", "serif";
+    font-size: 4em;
+}
+
+/*Hr*/
+hr{
+    border: orange solid 1px;
+    margin: 20px auto 20px auto;
+    max-width: 40%;
+}
+
+/*Spacing*/
+.margin-set-up{
+    margin: 15px auto 15px auto;
+}
+
+/*Text Selection color*/
+::-moz-selection{
+    color:#2e241f;
+    background-color: orange;
+}
+
+::selection{
+    color:#2e241f;
+    background-color: orange;
+}
+
+/*Div alerts*/
+.alert-yellow{
+    border: solid 2px #7a3312;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    text-align: center;
+    padding: 8px;
+    background-color: #b38302;
+    margin: auto;
+    vertical-align: center !important;
+}
+
+.alert-yellow p{
+    color: white !important;
+}
+
+.info-div{
+    border: #65de47 solid 3px;
+    background-color: #479c32;
+    border-radius: 10px;
+    color: white !important;
+    margin: 10px auto;
+    padding: 8px;
+    text-align: center;
+}
+
+/*textarea slider styling*/
+::-webkit-scrollbar {
+    width: 12px !important;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px black !important;
+    border-radius: 10px !important;
+    background-color: #3d2307 !important;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px !important;
+    -webkit-box-shadow: inset 0 0 6px black !important;
+    background-color: #d49b3f  !important;
 }
